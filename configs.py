@@ -40,7 +40,7 @@ class Config(object):
 	API_HASH = os.environ.get("API_HASH", "83af9473840700a451e3691fde17ceb6")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN","7650852708:AAEBO426ek7NZiKjoVLNU50HyN6lH0VebEw")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "Martin_file_bot")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002513092677"))
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1002513092675))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5703606988"))
 	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://akshxuus:<#Akshatraj2004>@cluster0.2zntr9h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002059818275")
@@ -58,7 +58,7 @@ class Config(object):
   # LP_CUSTOM_TEMPLATE= os.environ.get("LP_CUSTOM_TEMPLATE","{file_name} - example \n\n Please Upadate this template acording to you @LazyDeveloperr ")
 	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
-	AUTO_DELETE_TIME = int(os.environ.get('AUTO_DELETE_TIME', 20))
+	AUTO_DELETE_TIME = int(os.environ.get('AUTO_DELETE_TIME', 10))
 
 	ABOUT_BOT_TEXT = f"""
 ᴛʜɪꜱ ɪꜱ ᴘᴇʀᴍᴀɴᴇɴᴛ ꜰɪʟᴇꜱ ꜱᴛᴏʀᴇ ʙᴏᴛ!
